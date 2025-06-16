@@ -1,28 +1,36 @@
-# Built this in high school. Out of syllabus? yes. Did it affect my studies? ...yes. Was it worth it? Heck yes!
-# Project HMS - Hospital Management System.
+## 📋 About
+Project HMS is a hospital management system built using Python and the tkinter GUI package, designed to make offline data collection and management easy—even for users with zero Python/MySQL knowledge.
 
-Built using tkinter GUI package, it is built to make data collection easier in an offline environment.
-While on the agenda was using Python's terminal itself to make changes, add or remove data from the MySQL server, I went ahead and made it using tkinter module. This took about 3-4 days of learning, trial and error and then solving remaining errors. This is something you'd be familiar with.
-It also used to have a matplotlib for the payment info of all the patients, but that was removed on the order of my CS teacher, as the program was of no practical use then.
+Originally, I was supposed to build a CLI tool using MySQL and Python's terminal interface. But I decided to take it further and build a complete GUI using tkinter. What followed was 3–4 days of trial, error, and lots of debugging (you know how that goes 👨‍💻).
 
-Also, I've added the MySQL commands in an image in this repo. Check it out if you need help.
+There used to be a matplotlib graph for visualizing payment info, but it was sadly removed on the insistence of my CS teacher, because "it had no practical use." 😭
 
-# ABOUT THE PROGRAM:
+I’ve also included an image in the repo showing the MySQL commands if you're setting it up from scratch.
 
-### Features:
-1. Adding information into MySQL server, which requires no working knowledge of python or MySQL, except for installing python, MySQL and all the packages required, which a beginner can easily do.
-2. This particular one is a HMS, but someone with more knowledge of these can change the labels to fit their needs.
-3. The information that can be added in this particular HMS is - patient ID (unique), appointments, payments, doctors' info., treatments, medications, date of admission and date and time of appointments.
+### ✅ Features
+1. Add, update, and manage hospital records via GUI
+2. Automatic insertion into MySQL backend
+3. Beginner-friendly—no Python/MySQL skills needed (after setup)
+4. GUI-driven input for:
+    Patient ID (unique)
+    Appointment scheduling
+    Payments
+    Doctor info
+    Treatment & medication details
+    Admission date
+    Appointment time & date
 
-### Modules used:
-1. tkinter
-2. tkcalendar
-3. tktimepicker
-4. mysql.connector-python
+### 🧰 Tech Stack
+1. Python 3.x
+2. tkinter
+3. tkcalendar
+4. tktimepicker
+5. mysql-connector-python
 
-### Why?
-I try to overachieve constantly, sometimes, that energy s channeled into a thing that doesn't bring the return on investment 😭.
+### 💭 Why I Built This
+I tend to overachieve. It mostly pays off. This one payed off in both marks and growth. This time, got full marks like everyone else 😅.
+But I walked away knowing way more than just the syllabus.
 
-### Author
-My keyboard-name (like penname) is L.E.(Lactose Enjoyer) {Aditya Verma}.
-Reach out.
+### 👤 Author
+Made by L.E. (Lactose Enjoyer) a.k.a Aditya Verma
+Feel free to fork, break, or remix. Reach out if you vibe with the chaos.
